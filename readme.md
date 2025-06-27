@@ -88,7 +88,7 @@ data = {
     "file": {
         "file_name": file_name,
         "file_data": file_data ,
-        "file_type": "image",   # 只能是 image 或 doc
+        "file_type": "image",   # image、doc、excel、pdf等，具体看抓包返回的文件类型
     },
 }
 headers = {"Authorization": f"Bearer {hy_token}"}
@@ -141,6 +141,11 @@ for chunk in response:
 - 实时资讯搜索分析
 - 市场趋势数据集成
 - 结构化报告生成
+
+[CodexReel](https://github.com/chenwr727/CodexReel) 一个基于 AI 的智能视频生成平台：
+- 支持文章链接或主题文本输入（支持联网搜索）
+- 自动完成内容理解与脚本生成
+- 素材匹配、语音合成与视频剪辑一体化输出
 
 ## 📜 开源协议
 
